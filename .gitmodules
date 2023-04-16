@@ -1,0 +1,3 @@
+[submodule "storemanagement"]
+	path = storemanagement
+	url = https://github.com/kamper541/storemanagement.git
