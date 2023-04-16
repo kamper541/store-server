@@ -1,0 +1,33 @@
+{
+  "name": "store-manager",
+  "version": "1.0.0",
+  "description": "storemanager with vue.js & mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix storemanagement",
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run serve --prefix storemanagement",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Goravit Buakampun",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
